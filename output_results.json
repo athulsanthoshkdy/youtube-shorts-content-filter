@@ -1,0 +1,253 @@
+[
+  {
+    "short_id": "VideoID_001",
+    "overall_decision": "REMOVE",
+    "confidence_score": 0.94,
+    "primary_violation": "SCAM_SPAM",
+    "categories": {
+      "HATE_SPEECH": {
+        "risk_level": "LOW",
+        "score": 0.08,
+        "evidence": []
+      },
+      "HARASSMENT": {
+        "risk_level": "LOW",
+        "score": 0.05,
+        "evidence": []
+      },
+      "VIOLENCE_INCITEMENT": {
+        "risk_level": "LOW",
+        "score": 0.03,
+        "evidence": []
+      },
+      "SEXUAL_EXPLICIT": {
+        "risk_level": "LOW",
+        "score": 0.02,
+        "evidence": []
+      },
+      "SELF_HARM": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "SCAM_SPAM": {
+        "risk_level": "HIGH",
+        "score": 0.94,
+        "evidence": [
+          "free money",
+          "guaranteed returns",
+          "activate account",
+          "send $50"
+        ]
+      },
+      "MISINFO_HIGH_HARM": {
+        "risk_level": "MEDIUM",
+        "score": 0.65,
+        "evidence": [
+          "doubling money claim"
+        ]
+      }
+    },
+    "action_recommendation": "BLOCK_AND_REPORT",
+    "escalation_priority": "P1",
+    "notes_for_human_reviewer": "High confidence financial scam detected. Multiple red flags: unsolicited money request, guaranteed returns promise, activation fee. Pattern matches known fraud schemes.",
+    "processing_timestamp": "2024-01-15T11:30:00Z"
+  },
+  {
+    "short_id": "VideoID_002",
+    "overall_decision": "APPROVED",
+    "confidence_score": 0.98,
+    "primary_violation": "VIOLENCE_INCITEMENT",
+    "categories": {
+      "HATE_SPEECH": {
+        "risk_level": "LOW",
+        "score": 0.02,
+        "evidence": []
+      },
+      "HARASSMENT": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "VIOLENCE_INCITEMENT": {
+        "risk_level": "LOW",
+        "score": 0.12,
+        "evidence": [
+          "creeper mention in gaming context"
+        ]
+      },
+      "SEXUAL_EXPLICIT": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "SELF_HARM": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "SCAM_SPAM": {
+        "risk_level": "LOW",
+        "score": 0.05,
+        "evidence": []
+      },
+      "MISINFO_HIGH_HARM": {
+        "risk_level": "LOW",
+        "score": 0.03,
+        "evidence": []
+      }
+    },
+    "action_recommendation": "APPROVE_CONTENT",
+    "escalation_priority": "P3",
+    "notes_for_human_reviewer": "Safe gaming tutorial. Violence reference (creeper) is in appropriate Minecraft game context. No violations detected.",
+    "processing_timestamp": "2024-01-14T16:15:00Z"
+  },
+  {
+    "short_id": "VideoID_003",
+    "overall_decision": "APPROVED",
+    "confidence_score": 0.99,
+    "primary_violation": "MISINFO_HIGH_HARM",
+    "categories": {
+      "HATE_SPEECH": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "HARASSMENT": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "VIOLENCE_INCITEMENT": {
+        "risk_level": "LOW",
+        "score": 0.02,
+        "evidence": []
+      },
+      "SEXUAL_EXPLICIT": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "SELF_HARM": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "SCAM_SPAM": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "MISINFO_HIGH_HARM": {
+        "risk_level": "LOW",
+        "score": 0.05,
+        "evidence": [
+          "official election results"
+        ]
+      }
+    },
+    "action_recommendation": "APPROVE_CONTENT",
+    "escalation_priority": "P3",
+    "notes_for_human_reviewer": "Legitimate news reporting. Official source attribution from election commission. Factual tone. No misinformation detected.",
+    "processing_timestamp": "2024-01-13T21:00:00Z"
+  },
+  {
+    "short_id": "VideoID_004",
+    "overall_decision": "ESCALATE_TO_HUMAN",
+    "confidence_score": 0.72,
+    "primary_violation": "SELF_HARM",
+    "categories": {
+      "HATE_SPEECH": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "HARASSMENT": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "VIOLENCE_INCITEMENT": {
+        "risk_level": "LOW",
+        "score": 0.03,
+        "evidence": []
+      },
+      "SEXUAL_EXPLICIT": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "SELF_HARM": {
+        "risk_level": "MEDIUM",
+        "score": 0.72,
+        "evidence": [
+          "dark thoughts",
+          "crisis hotline reference"
+        ]
+      },
+      "SCAM_SPAM": {
+        "risk_level": "LOW",
+        "score": 0.02,
+        "evidence": []
+      },
+      "MISINFO_HIGH_HARM": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      }
+    },
+    "action_recommendation": "ESCALATE_FOR_HUMAN_REVIEW",
+    "escalation_priority": "P1",
+    "notes_for_human_reviewer": "Self-harm category detected but context appears SUPPORTIVE (crisis hotline reference, motivation). Requires human judgment to confirm intent is supportive not promoting harm.",
+    "processing_timestamp": "2024-01-12T13:00:00Z"
+  },
+  {
+    "short_id": "VideoID_005",
+    "overall_decision": "APPROVED",
+    "confidence_score": 0.97,
+    "primary_violation": "SCAM_SPAM",
+    "categories": {
+      "HATE_SPEECH": {
+        "risk_level": "LOW",
+        "score": 0.01,
+        "evidence": []
+      },
+      "HARASSMENT": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "VIOLENCE_INCITEMENT": {
+        "risk_level": "LOW",
+        "score": 0.02,
+        "evidence": []
+      },
+      "SEXUAL_EXPLICIT": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "SELF_HARM": {
+        "risk_level": "LOW",
+        "score": 0.0,
+        "evidence": []
+      },
+      "SCAM_SPAM": {
+        "risk_level": "LOW",
+        "score": 0.08,
+        "evidence": [
+          "link warning in educational context"
+        ]
+      },
+      "MISINFO_HIGH_HARM": {
+        "risk_level": "LOW",
+        "score": 0.03,
+        "evidence": []
+      }
+    },
+    "action_recommendation": "APPROVE_CONTENT",
+    "escalation_priority": "P3",
+    "notes_for_human_reviewer": "Educational cyber security content. Warning about suspicious links is protective, not promotional. No violations detected.",
+    "processing_timestamp": "2024-01-11T10:00:00Z"
+  }
+]

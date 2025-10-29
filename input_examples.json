@@ -1,0 +1,82 @@
+[
+  {
+    "short_id": "VideoID_001",
+    "title": "Free money method EXPOSED!! \ud83d\udcb0",
+    "description": "Click link in bio. Guaranteed returns in 24 hours.",
+    "transcript": "Hey everyone, today I'm showing you how to double your money using this secret method. Just send $50 to activate your account and you'll get $100 back.",
+    "top_comments": [
+      "This looks legit!",
+      "This is a scam",
+      "Reported for spam"
+    ],
+    "duration_seconds": 45,
+    "view_count": 125000,
+    "upload_date": "2024-01-15T10:30:00Z",
+    "channel_name": "QuickMoney123",
+    "language": "en"
+  },
+  {
+    "short_id": "VideoID_002",
+    "title": "Minecraft Building Tutorial - Epic Base",
+    "description": "Learn how to build an amazing base in Minecraft. No cheats!",
+    "transcript": "Hey guys, today we're gonna build an epic base. First you're gonna want to gather wood, then make a pickaxe to mine stone. If you see a creeper, run!",
+    "top_comments": [
+      "Amazing tutorial!",
+      "Thanks so much",
+      "Can't wait to try"
+    ],
+    "duration_seconds": 55,
+    "view_count": 500000,
+    "upload_date": "2024-01-14T15:00:00Z",
+    "channel_name": "MinecraftPro",
+    "language": "en"
+  },
+  {
+    "short_id": "VideoID_003",
+    "title": "Breaking News: Local Election Results Announced",
+    "description": "Official results from yesterday's election. Full report.",
+    "transcript": "According to the election commission, the voting concluded yesterday at 6 PM. With 100% of precincts reporting, the results are as follows...",
+    "top_comments": [
+      "Thanks for reporting",
+      "Official source",
+      "Appreciate the update"
+    ],
+    "duration_seconds": 30,
+    "view_count": 50000,
+    "upload_date": "2024-01-13T20:00:00Z",
+    "channel_name": "LocalNews5",
+    "language": "en"
+  },
+  {
+    "short_id": "VideoID_004",
+    "title": "Stay strong everyone \u2764\ufe0f",
+    "description": "Motivation video",
+    "transcript": "Hey everyone, going through a tough time? Remember you're not alone. If you're having dark thoughts, please call the crisis hotline. You matter.",
+    "top_comments": [
+      "This helped me",
+      "Thank you",
+      "Powerful message"
+    ],
+    "duration_seconds": 50,
+    "view_count": 200000,
+    "upload_date": "2024-01-12T12:00:00Z",
+    "channel_name": "MotivationDaily",
+    "language": "en"
+  },
+  {
+    "short_id": "VideoID_005",
+    "title": "How to Stay Safe Online - Security Tips",
+    "description": "Important cyber security tips for everyone",
+    "transcript": "Today we're talking about online safety. First, never click suspicious links. Always use strong passwords. Enable two-factor authentication on important accounts.",
+    "top_comments": [
+      "Very helpful",
+      "Great tips",
+      "Sharing this"
+    ],
+    "duration_seconds": 45,
+    "view_count": 75000,
+    "upload_date": "2024-01-11T09:00:00Z",
+    "channel_name": "CyberSecurity101",
+    "language": "en"
+  }
+]
